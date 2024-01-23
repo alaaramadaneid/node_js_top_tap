@@ -1,17 +1,17 @@
-/* Réinitialisation des marges et des rembourrages pour tous les éléments */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Style du corps de la page */
+
 body {
     background-color: black;
+    color: #F7DC6F;
 }
 
-/* Style général pour les éléments du jeu */
+
 .character {
-    background-image: url("/public/img/alaa.jpg"); /* Image de la taupe */
+    background-image: url("/public/img/alaa.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -22,7 +22,7 @@ body {
     height: 100px;
     border-radius: 4px;
     background-color: black;
-    border: #F7DC6F 1px solid; /* Bordure jaune */
+    border: #F7DC6F 1px solid;
 }
 
 #boardGame {
@@ -36,36 +36,31 @@ body {
 }
 
 .none {
-    display: none; /* Éléments avec la classe "none" initialement masqués */
-    background-color: #F7DC6F; /* Fond jaune */
+    display: none;
+    background-color: #F7DC6F;
 }
 
 #score {
-    color: #F7DC6F; /* Texte jaune */
-    margin-top: 50px;
-    font-size: 100px;
-    margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
     text-align: center;
 }
 
-.noah {
+.noah, .alaa {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
-#startGame {
+#startGame,
+#restartGame {
     width: 100px;
     height: 50px;
     background-color: black;
     border: #F7DC6F 1px solid;
     border-radius: 4px;
-    color: #F7DC6F; /* Texte jaune */
-}
-
-.alaa {
-    display: flex;
-    justify-content: center;
+    color: #F7DC6F;
+    margin-top: 20px;
 }
 
 input {
@@ -75,7 +70,7 @@ input {
     border: #F7DC6F 1px solid;
     border-radius: 4px;
     background: black;
-    color: #F7DC6F; /* Texte jaune */
+    color: #F7DC6F;
     padding: 5px;
 }
 
@@ -84,15 +79,21 @@ span {
     min-height: 5px;
     border-radius: 4px;
     background: black;
-    color: #F7DC6F; /* Texte jaune */
 }
 
-#restartGame {
-    margin-top: 50px;
-    width: 100px;
+#niveauLabel {
+    padding-left: 10px;
+    margin-left: 20px;
+    font-size: 24px;
     height: 50px;
-    background-color: black;
+    width: 250px;
     border: #F7DC6F 1px solid;
     border-radius: 4px;
-    color: #F7DC6F; /* Texte jaune */
+
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
 }
