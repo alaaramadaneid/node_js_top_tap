@@ -1,16 +1,17 @@
+/* Réinitialisation des marges et des rembourrages pour tous les éléments */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Style du corps de la page */
 body {
     background-color: black;
-
 }
 
-/* General styling for game elements */
+/* Style général pour les éléments du jeu */
 .character {
-    background-image: url("/public/img/alaa.jpg");
+    background-image: url("/public/img/alaa.jpg"); /* Image de la taupe */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -21,8 +22,7 @@ body {
     height: 100px;
     border-radius: 4px;
     background-color: black;
-    border: #F7DC6F 1px solid;
-
+    border: #F7DC6F 1px solid; /* Bordure jaune */
 }
 
 #boardGame {
@@ -36,12 +36,12 @@ body {
 }
 
 .none {
-    display: none;
-    background-color: #F7DC6F;
+    display: none; /* Éléments avec la classe "none" initialement masqués */
+    background-color: #F7DC6F; /* Fond jaune */
 }
 
 #score {
-    color: #F7DC6F;
+    color: #F7DC6F; /* Texte jaune */
     margin-top: 50px;
     font-size: 100px;
     margin: 10px;
@@ -60,7 +60,7 @@ body {
     background-color: black;
     border: #F7DC6F 1px solid;
     border-radius: 4px;
-    color: #F7DC6F;
+    color: #F7DC6F; /* Texte jaune */
 }
 
 .alaa {
@@ -75,23 +75,24 @@ input {
     border: #F7DC6F 1px solid;
     border-radius: 4px;
     background: black;
-    color: #F7DC6F;
+    color: #F7DC6F; /* Texte jaune */
     padding: 5px;
 }
-span{
+
+span {
     margin-top: 20px;
     min-height: 5px;
     border-radius: 4px;
     background: black;
-    color: #F7DC6F;
-
+    color: #F7DC6F; /* Texte jaune */
 }
-#restartGame{
+
+#restartGame {
     margin-top: 50px;
     width: 100px;
     height: 50px;
     background-color: black;
     border: #F7DC6F 1px solid;
     border-radius: 4px;
-    color: #F7DC6F;
+    color: #F7DC6F; /* Texte jaune */
 }

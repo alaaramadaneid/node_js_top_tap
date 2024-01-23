@@ -8,21 +8,35 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
+<!-- Minuteur -->
+<div id="timer"></div>
+
 <div class="alaa">
-    <div id="timer"></div>
-    <input type="text" name="playerName" id="playerNameInput" placeholder="entrez le nom de Joueur SVP :">
+    <!-- Formulaire pour saisir le nom du joueur -->
+    <input type="text" name="playerName" id="playerNameInput" placeholder="Entrez le nom du Joueur SVP :">
+
+    <!-- Affichage du nom du joueur -->
     <span id="playerNameDisplay"></span>
 </div>
+
+<!-- Zone de jeu -->
 <div id="boardGame"></div>
+
 <div class="noah">
-    <button id="startGame">Start</button>
-    <button id="restartGame" class="none">Restart</button>
+    <!-- Bouton pour démarrer le jeu -->
+    <button id="startGame">START</button>
+
+    <!-- Bouton pour redémarrer le jeu (initialement masqué) -->
+    <button id="restartGame" class="none">RESTART</button>
 </div>
+
+<!-- Affichage du score, du tour, du niveau, et de la victoire -->
 <div id="score"></div>
 <div id="tour"></div>
 <div id="niveau"></div>
 <div id="affichageVictoire"></div>
 
+<!-- Inclusion du script JavaScript -->
 <script src="./public/js/script.js"></script>
 </body>
 </html>
